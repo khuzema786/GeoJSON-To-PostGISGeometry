@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Vega City Mall</name>
+	<gx:CascadingStyle kml:id="__managed_style_2336DC496E2BA062D029">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1BA99C7A592BA062D029">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0C17DEFD1A2BA062D029">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1BA99C7A592BA062D029</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2336DC496E2BA062D029</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0AF55054892BA062D027">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>77.60182212762852</longitude>
+			<latitude>12.90729736854793</latitude>
+			<altitude>919.6041569454026</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>425.3403307213011</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0C17DEFD1A2BA062D029</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.60139148229295,12.90674505601164,918.6440836224671 77.60114387369552,12.90709045478412,920.2585405510614 77.60167802583652,12.90722209057831,920.4177956385245 77.6019809679389,12.90836184049958,919.0520645184375 77.60175510457893,12.90866872599986,920.573152298761 77.60030067398074,12.90861498655753,922.873176425617 77.600405904068,12.90795245450882,919.1009740925988 77.60018603425456,12.9079348209887,921.2173152677921 77.60024777271239,12.90740293128516,922.2458651698731 77.60099794706227,12.90657358091065,921.0770359796986 77.60139148229295,12.90674505601164,918.6440836224671 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Diamond District Tower</name>
+	<gx:CascadingStyle kml:id="__managed_style_25E9358D872BA056BDF7">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C1442F3A72BA056BDF7">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00EEE331672BA056BDF7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C1442F3A72BA056BDF7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_25E9358D872BA056BDF7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0538B61BB32BA056BDF2">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>77.64376666821016</longitude>
+			<latitude>12.95993205433474</latitude>
+			<altitude>914.290310605891</altitude>
+			<heading>-9.745660846302294e-11</heading>
+			<tilt>25.68564892255582</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>270.3411779948147</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_00EEE331672BA056BDF7</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.64266051358464,12.96047795720748,914.2273224353075 77.64277428557153,12.95987259376927,914.9748978234504 77.64325135232232,12.9598730092004,914.8412690096752 77.6432903784459,12.9597328750857,914.2880753751281 77.64398206611931,12.95966558300462,916.4027336195127 77.64400252562859,12.95978513799407,914.9875532864131 77.6443496695355,12.95976588034238,913.4786955545713 77.64441390857303,12.96032209603279,908.1962486193489 77.64361132888473,12.96041536047719,911.2117855273282 77.64313428615493,12.96045584554227,912.7195539813177 77.64266051358464,12.96047795720748,914.2273224353075 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kolkata Service</name>
+	<Schema name="file://earth/15402340106397613221" id="temp">
+		<SimpleField type="string" name="DISTRICT">
+		</SimpleField>
+		<SimpleField type="string" name="ST_NM">
+		</SimpleField>
+		<SimpleField type="int" name="ST_CEN_CD">
+		</SimpleField>
+		<SimpleField type="int" name="DT_CEN_CD">
+		</SimpleField>
+		<SimpleField type="string" name="censuscode">
+		</SimpleField>
+	</Schema>
+	<gx:CascadingStyle kml:id="__managed_style_2BFA2F5A9F2B10156BA3">
+		<Style>
+			<IconStyle>
+				<scale>1.44</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12EC00D3C02B10156BA3">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_07235A69082B10156BA3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12EC00D3C02B10156BA3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BFA2F5A9F2B10156BA3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0AB5A76B9B2B0EE84287">
+		<styleUrl>#__managed_style_07235A69082B10156BA3</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="DISTRICT">Kolkata</SimpleData>
+				<SimpleData name="ST_NM">West Bengal</SimpleData>
+				<SimpleData name="ST_CEN_CD">19</SimpleData>
+				<SimpleData name="DT_CEN_CD">16</SimpleData>
+				<SimpleData name="censuscode">342</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						88.44151848947295,22.539296569554,0 88.43938010144842,22.54422494331878,0 88.44592196052142,22.54736174469594,0 88.45144544226034,22.55808578118906,0 88.46537136597405,22.55907394602865,0 88.48680347061217,22.57133190563875,0 88.45868376810957,22.63161928054743,0 88.45973288352987,22.64801357371568,0 88.47396412722735,22.6948891210925,0 88.43839901144435,22.69117915375297,0 88.37935372166247,22.66981979830091,0 88.3635837839231,22.6552854243197,0 88.35428874137143,22.65500016710507,0 88.35004474218556,22.65528690781356,0 88.34435786333171,22.65614714468573,0 88.33733435851525,22.65557377699701,0 88.33642842228973,22.64703062807309,0 88.3386484824097,22.64037503144175,0 88.33149299512814,22.63619657697951,0 88.32605378031852,22.63089701783463,0 88.31836433923047,22.62722389025018,0 88.30982068325129,22.6225536940096,0 88.29717576010505,22.61930426042571,0 88.26128399360898,22.59342969657763,0 88.26333100591209,22.56127862813614,0 88.26413632989197,22.54829341444706,0 88.26494546286874,22.54039315868719,0 88.27406182543284,22.53653260530988,0 88.27422164700235,22.5284998153234,0 88.27822894997662,22.52243018657646,0 88.28338221099574,22.51252331720619,0 88.28548655027257,22.50706378267036,0 88.27249533981498,22.49363145870748,0 88.28047315823186,22.48141351557574,0 88.28946118910125,22.44145006900373,0 88.29934189183405,22.43683372042209,0 88.30989781452712,22.43650515278357,0 88.32419002439312,22.4376879630292,0 88.34718265886828,22.4407873080782,0 88.36700237038224,22.44461972059845,0 88.40079273669755,22.45291312990421,0 88.41933259682855,22.4627810486904,0 88.42008907998603,22.48205424821001,0 88.42416395855662,22.48704406078984,0 88.4257511867754,22.49164325263287,0 88.42667269588713,22.49628423201216,0 88.42764802636871,22.49917837051794,0 88.42961169816296,22.50276365777522,0 88.43133666039856,22.50614789689251,0 88.43358129523935,22.51001036393145,0 88.43297720389046,22.51298344382846,0 88.43481315210238,22.51505183359285,0 88.43719211779904,22.51991006407711,0 88.43688013379993,22.52130637089308,0 88.43619780846889,22.52575268286143,0 88.4350825454442,22.53082056140748,0 88.44151848947295,22.539296569554,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

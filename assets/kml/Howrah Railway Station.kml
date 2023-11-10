@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Howrah Railway Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_2BA749E67D2BA48BEE2B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1717F499302BA48BEE2B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_04209749512BA48BEE2B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1717F499302BA48BEE2B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BA749E67D2BA48BEE2B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="01D4F2D2212BA44C064F">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>88.33500832486992</longitude>
+			<latitude>22.58674390233061</latitude>
+			<altitude>27.18975666990751</altitude>
+			<heading>-1.279520105023463e-05</heading>
+			<tilt>1.997440759827414</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1248.261876738689</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_04209749512BA48BEE2B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						88.33530056653346,22.58696486736322,24.94097869621651 88.33611532387658,22.58580596144175,25.63368991557347 88.33700887471144,22.58429321902879,26.8262565055281 88.33771880145669,22.58312857496956,26.44432141137451 88.3386648229487,22.58140328869163,27.71370497679396 88.33874107073532,22.58056081265321,26.4261613930529 88.33899993758324,22.57898108803962,28.45986850339571 88.33955195496334,22.57789462571703,28.27405503182977 88.34416783956321,22.57553189135328,18.35588424367163 88.34546990702049,22.57864857053642,18.35893770706834 88.34590129881811,22.57969802178857,18.40041784067332 88.34637793364837,22.58081158140748,18.33679914432284 88.34695813588601,22.5819158836271,18.48177384850143 88.3473387561379,22.58303698801092,18.89028557430761 88.34440493128403,22.58415951657591,24.29633288646739 88.34402169586473,22.58425408896459,25.39484997139434 88.34219757213776,22.58482492451078,25.44570437022222 88.3396844123573,22.5855154824846,24.13262341354263 88.33786580590228,22.58612874377307,26.72002084997317 88.33629115205919,22.58693212740609,23.48818678219359 88.33545587501334,22.58783902875943,22.86994142378553 88.33426511117044,22.58982462934714,24.55141070960325 88.33354078048862,22.58950482879571,24.50900201635068 88.33530056653346,22.58696486736322,24.94097869621651 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
