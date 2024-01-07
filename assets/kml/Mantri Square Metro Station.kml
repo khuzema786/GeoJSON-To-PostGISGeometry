@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mantri Square Mall Metro</name>
+	<gx:CascadingStyle kml:id="__managed_style_1271E1C7CB2E1773B01D">
+		<Style>
+			<IconStyle>
+				<scale>1.44</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0016F58B912E1773B01D">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_034FDAAA0E2E1773B01C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0016F58B912E1773B01D</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1271E1C7CB2E1773B01D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0B85E393CB2A0DD7021E">
+		<name>Sampige Road metro station</name>
+		<styleUrl>#__managed_style_034FDAAA0E2E1773B01C</styleUrl>
+		<ExtendedData>
+			<Data name="city">
+				<value>Bangalore</value>
+			</Data>
+			<Data name="state">
+				<value>Karnataka</value>
+			</Data>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.57028906288997,12.99080292006228,0 77.57097387178057,12.98984681881027,0 77.57089324830616,12.98975678232996,0 77.57138783903093,12.98945518456425,0 77.57154100261226,12.98956711779847,0 77.57154436831316,12.9900191863716,0 77.57170994510564,12.99009522719503,0 77.57208898325715,12.99021795799676,0 77.57180319919765,12.99060062647644,0 77.5716582538542,12.99102549520296,0 77.57150666887171,12.9913954594853,0 77.57149415101988,12.99180273657223,0 77.57145757588798,12.99237585505248,0 77.56988879806134,12.99235128445014,0 77.56953049831947,12.99211010038014,0 77.5699279614436,12.99140431052668,0 77.57008057241319,12.9911458036287,0 77.57028906288997,12.99080292006228,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

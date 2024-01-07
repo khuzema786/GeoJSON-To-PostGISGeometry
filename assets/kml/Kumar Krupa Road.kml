@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kumar Krupa Road</name>
+	<gx:CascadingStyle kml:id="__managed_style_0B1B6486B62E148A4DC3">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_13A82627E82E148A4DC2">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0FE3F124842E148A4DC2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_13A82627E82E148A4DC2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B1B6486B62E148A4DC3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="032E808ACE2E148A4DBF">
+		<name>Kumar Krupa Road</name>
+		<LookAt>
+			<longitude>77.57984561535611</longitude>
+			<latitude>12.98726112010214</latitude>
+			<altitude>942.4541092826344</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>482.253389501202</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0FE3F124842E148A4DC2</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.5799692302961,12.98648072110426,0 77.58027353486305,12.98720687263404,0 77.58038283270788,12.98700518539844,0 77.58042552573215,12.98706064077989,0 77.58032797979375,12.98732379207835,0 77.58119703085517,12.98872204128087,0 77.58182867546924,12.98978767047264,0 77.58251688838604,12.99090461931184,0 77.58300437715963,12.99166201580698,0 77.58361339671758,12.99249127634656,0 77.58418666271145,12.99327022789661,0 77.58460391551252,12.99374569300993,0 77.58497305119977,12.99358710018796,0 77.58503056921457,12.99381102869793,0 77.58454508141978,12.99387037746349,0 77.58414709567879,12.99350892595733,0 77.5837957381714,12.99312864023023,0 77.58317482179835,12.99234660052682,0 77.58248282099537,12.99132753454804,0 77.58216119520749,12.99077714267005,0 77.582057813513,12.99083127454507,0 77.58194848462821,12.99088601669954,0 77.58183278479017,12.99100073775142,0 77.58160907143194,12.99110307916057,0 77.58137369352475,12.99115767535574,0 77.58069462205276,12.9911336779787,0 77.58013712337608,12.99053029333403,0 77.57997178130422,12.98945658508573,0 77.5808548763911,12.98852340739318,0 77.58061446353688,12.98814271310682,0 77.58024654848306,12.98745906791793,0 77.58012629420746,12.98769324211147,0 77.58006207183332,12.98762841731604,0 77.58018644758204,12.98737388071644,0 77.5799269088634,12.98693172862257,0 77.57970770732426,12.98663451194396,0 77.5799692302961,12.98648072110426,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

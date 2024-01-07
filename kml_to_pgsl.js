@@ -4,8 +4,8 @@ const exec = util.promisify(require("child_process").exec);
 const { v4: uuidv4 } = require("uuid");
 const reader = require("xlsx");
 
-const typeOfMigration = "INSERT"; // "INSERT" | "UPDATE"
-const sheet = 3;
+const typeOfMigration = "UPDATE"; // "INSERT" | "UPDATE"
+const sheet = 2;
 
 const farePolicy = [
   {
@@ -64,6 +64,7 @@ const pbcopy = (data) => {
   await processDir(kmlDir);
 
   let specialLocationMigration = "";
+  let specialLocationPriorityMigration = "";
   let fareProductMigration = "";
 
   let i = 0;
@@ -171,6 +172,8 @@ const pbcopy = (data) => {
     , now()
     );\n`;
 
+          specialLocationPriorityMigration += `INSERT INTO atlas_driver_offer_bpp.special_location_priority (id, merchant_id, category, pickup_priority, drop_priority) VALUES ('${uuidv4()}', '7f7896dd-787e-4a0b-8675-e9e6fe93bb8f', '${category}', 7, 7);\n`;
+
           fareProductMigration += farePolicy
             .map(
               ({ id, variant }) =>
@@ -198,6 +201,10 @@ const pbcopy = (data) => {
   await writeFile(
     __dirname + "/assets/migrations/special-location.sql",
     specialLocationMigration
+  );
+  await writeFile(
+    __dirname + "/assets/migrations/special-location-priority.sql",
+    specialLocationPriorityMigration
   );
   await writeFile(
     __dirname + "/assets/migrations/fare-product.sql",

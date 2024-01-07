@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Mantri Mall</name>
-	<gx:CascadingStyle kml:id="__managed_style_2798FF4AB72BA04CF15B">
+	<name>Chinnaswamy Stadium</name>
+	<gx:CascadingStyle kml:id="__managed_style_23343F6EA42D5FE4919E">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -25,7 +25,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1F7073DAC62BA04CF15B">
+	<gx:CascadingStyle kml:id="__managed_style_14BE3B36362D5FE4919E">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -47,34 +47,34 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_045AF9AD832BA04CF15B">
+	<StyleMap id="__managed_style_00E283712E2D5FE4919E">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1F7073DAC62BA04CF15B</styleUrl>
+			<styleUrl>#__managed_style_14BE3B36362D5FE4919E</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2798FF4AB72BA04CF15B</styleUrl>
+			<styleUrl>#__managed_style_23343F6EA42D5FE4919E</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Placemark id="03D29018AF2BA04CF155">
-		<name>Untitled Polygon</name>
+	<Placemark id="0F5CDE71862D5FC669EE">
+		<name>Chinnaswamy Stadium</name>
 		<LookAt>
-			<longitude>77.57117356632496</longitude>
-			<latitude>12.99163345561189</latitude>
-			<altitude>925.5854485089934</altitude>
-			<heading>0</heading>
+			<longitude>77.5996158998982</longitude>
+			<latitude>12.97863410454844</latitude>
+			<altitude>947.2396484355404</altitude>
+			<heading>20.30093869006014</heading>
 			<tilt>0</tilt>
 			<gx:fovy>35</gx:fovy>
-			<range>295.3996858978281</range>
+			<range>727.3547412332118</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_045AF9AD832BA04CF15B</styleUrl>
+		<styleUrl>#__managed_style_00E283712E2D5FE4919E</styleUrl>
 		<Polygon>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						77.5716703991187,12.99080833405412,921.5549329783905 77.57159847789123,12.99245868740637,924.9818844240061 77.5709453648349,12.99241845729233,927.9206221782612 77.56993846673666,12.99237407337378,927.7647652926923 77.56972554919449,12.99215297375354,927.1016924355899 77.56997265668943,12.99181721070724,924.7384419141895 77.5704100115619,12.99119208379643,922.0739009038331 77.57056858638136,12.99129306301668,922.157824081183 77.57093748905949,12.99084725297714,921.6216578861325 77.57152504524667,12.99080194560556,921.9464256167842 77.5716703991187,12.99080833405412,921.5549329783905 
+						77.59932251719343,12.97688211558577,0 77.60158497604307,12.97691484066539,0 77.60236433107046,12.9792099050367,0 77.59755544272829,12.9808149217467,0 77.59737504028385,12.98073107853452,0 77.59932251719343,12.97688211558577,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
