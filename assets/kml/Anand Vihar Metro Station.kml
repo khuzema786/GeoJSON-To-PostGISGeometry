@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Anand Vihar Metro Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_2492482D4E2E2CEEB434">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1F571DB2D42E2CEEB434">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_02EECB38AC2E2CEEB434">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1F571DB2D42E2CEEB434</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2492482D4E2E2CEEB434</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="05CE915CDD2E295910EB">
+		<name>Untitled polygon</name>
+		<LookAt>
+			<longitude>77.31588768071454</longitude>
+			<latitude>28.64715898409326</latitude>
+			<altitude>226.3645057585762</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>491.3186585179938</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_02EECB38AC2E2CEEB434</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.315340080779,28.64711094027773,0 77.31526335864389,28.64698392129882,0 77.31512399740859,28.64706014131933,0 77.31507410197715,28.6469780831294,0 77.31476629065718,28.64714431806656,0 77.31462490539396,28.64697833446906,0 77.31496297142418,28.64682940275519,0 77.31490979556045,28.646780557718,0 77.31576919358456,28.64636192401573,0 77.31580486340755,28.64641283595002,0 77.31592430676686,28.64633567975001,0 77.31602867039996,28.6464905927359,0 77.31609644886029,28.64646399552914,0 77.31616616477572,28.64656817724047,0 77.31637008508731,28.64646412630716,0 77.31646387682862,28.64659581128658,0 77.31683947894707,28.64639011190476,0 77.31694383478029,28.64655175964293,0 77.31725990128693,28.64642459671725,0 77.31730536200783,28.6464769685258,0 77.31661051019142,28.64681576800891,0 77.31665707644866,28.6468741893267,0 77.31572260525445,28.64732784203557,0 77.31564759240254,28.64718729638641,0 77.31524516999129,28.64733856318347,0 77.3151662323494,28.64718312501897,0 77.315340080779,28.64711094027773,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

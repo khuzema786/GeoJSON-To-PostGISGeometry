@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mandi House Metro Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_29B8C414D42E294B28C3">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18396160192E294B28C3">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_087951F56A2E294B28C3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18396160192E294B28C3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_29B8C414D42E294B28C3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A3DD325582E294B28C2">
+		<name>Untitled polygon</name>
+		<LookAt>
+			<longitude>77.23395333123133</longitude>
+			<latitude>28.62603707685351</latitude>
+			<altitude>241.0723689276778</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>738.2440873196174</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_087951F56A2E294B28C3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.23251162688881,28.62599445181216,0 77.23267765284793,28.62565745798777,0 77.23259303855211,28.62539214068541,0 77.2326924458543,28.62533457953057,0 77.23467899949965,28.625325452619,0 77.23472532702363,28.62562162055668,0 77.23460851393074,28.6258770609686,0 77.23461647794687,28.62618525411035,0 77.23374584093392,28.62622831048946,0 77.23371041973591,28.62590608099981,0 77.23343382487027,28.62593486084394,0 77.23276317256975,28.6259889656767,0 77.23250629592393,28.62634167432427,0 77.23266884191968,28.62650200060892,0 77.23302518651977,28.62681944376174,0 77.23282864417267,28.6269419631221,0 77.23267079457025,28.62721660433942,0 77.23227334121349,28.62724180509195,0 77.23223458283057,28.62694799941396,0 77.23218512913834,28.6263830604375,0 77.23251162688881,28.62599445181216,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

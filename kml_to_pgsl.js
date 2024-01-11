@@ -4,8 +4,8 @@ const exec = util.promisify(require("child_process").exec);
 const { v4: uuidv4 } = require("uuid");
 const reader = require("xlsx");
 
-const typeOfMigration = "UPDATE"; // "INSERT" | "UPDATE"
-const sheet = 2;
+const typeOfMigration = "INSERT"; // "INSERT" | "UPDATE"
+const sheet = 0;
 
 const farePolicy = [
   {
@@ -70,10 +70,16 @@ const pbcopy = (data) => {
   let i = 0;
   while (i < xlsxData.length) {
     let data = xlsxData[i];
-    if (data["Location Name"]) {
+    const locationName = data["Location Name"];
+    if (locationName) {
       try {
+        if (!files[locationName]) {
+          console.log(`File ${locationName}.kml not found.`);
+          i++;
+          continue;
+        }
+
         const specialZoneId = uuidv4();
-        const locationName = data["Location Name"];
         const category = data["Category"];
         let gates = "";
 
@@ -183,14 +189,19 @@ const pbcopy = (data) => {
         } else if (typeOfMigration === "UPDATE") {
           specialLocationMigration += `UPDATE atlas_driver_offer_bpp.special_location SET location_name = '${locationName}', category = '${category}', gates = ${gates}, geom = '${geometry}' WHERE location_name = '${locationName}';\n`;
         }
-        specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
+        // specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
         console.log(`done : ${files[locationName]}`);
       } catch (err) {
         console.log(`skipped : ${files[data["Location Name"]]}`, err);
+        i++;
         continue;
       } finally {
         await rm(`${kmlDir}/temp`, { recursive: true, force: true });
+        continue;
       }
+    } else {
+      i++;
+      continue;
     }
   }
 
