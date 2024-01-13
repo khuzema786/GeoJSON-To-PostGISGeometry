@@ -3,6 +3,7 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const { v4: uuidv4 } = require("uuid");
 const reader = require("xlsx");
+const puppeteer = require("puppeteer");
 
 const typeOfMigration = "INSERT"; // "INSERT" | "UPDATE"
 const sheet = 0;
@@ -34,7 +35,8 @@ const farePolicy = [
   },
 ];
 
-const kmlDir = __dirname + "/assets/kml";
+const assetsDir = __dirname + "/assets";
+const kmlDir = assetsDir + "/kml";
 
 const pbcopy = (data) => {
   let proc = require("child_process").spawn("pbcopy");
@@ -42,8 +44,73 @@ const pbcopy = (data) => {
   proc.stdin.end();
 };
 
+const generateMap = async (geoJson, locationName) => {
+  // Create a simple HTML file with Leaflet
+  const html = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaflet Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <style>
+    body { margin: 0; }
+    #map { height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    const map = L.map('map').setView([0, 0], 2); // Set initial view
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    // Add terrain view
+    L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
+      attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+    }).addTo(map);
+
+    // Add places layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map tiles by OpenStreetMap, under ODbL.',
+    }).addTo(map);
+
+    // Add roads layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map tiles by OpenStreetMap, under ODbL.',
+    }).addTo(map);
+
+    // Zoom to GeoJSON bounds
+    const geoJsonLayer = L.geoJSON(${JSON.stringify(geoJson)});
+    map.fitBounds(geoJsonLayer.getBounds());
+
+    // Add GeoJSON data to the map
+    geoJsonLayer.addTo(map);
+  </script>
+</body>
+</html>
+`;
+
+  // Launch a headless browser
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
+
+  // Set the content of the page
+  await page.setContent(html, { waitUntil: ["domcontentloaded", "load"] });
+
+  // Capture a screenshot of the map
+  await page.screenshot({
+    path: `${assetsDir}/maps/${locationName}.png`,
+    fullPage: true,
+  });
+
+  // Close the browser
+  await browser.close();
+};
+
 (async () => {
-  const file = reader.readFile(__dirname + "/assets/special-zones.xlsx");
+  const file = reader.readFile(assetsDir + "/special-zones.xlsx");
   const xlsxData = reader.utils.sheet_to_json(
     file.Sheets[file.SheetNames[sheet]]
   );
@@ -89,8 +156,8 @@ const pbcopy = (data) => {
           const gate = {
             name: data["GatesInfo (name)"],
             address: data["GatesInfo (address)"],
-            lat: data["GatesInfo (LatLon)"].split(",")[0].trim(),
-            lon: data["GatesInfo (LatLon)"].split(",")[1].trim(),
+            lat: data["GatesInfo (LatLon)"].split(",")[0]?.trim(),
+            lon: data["GatesInfo (LatLon)"].split(",")[1]?.trim(),
           };
           if (flag) {
             flag = !flag;
@@ -114,7 +181,8 @@ const pbcopy = (data) => {
         gates = "'{" + gates + "}'";
 
         await mkdir(`${kmlDir}/temp`, { recursive: true });
-        await mkdir(`${kmlDir}/geojson`, { recursive: true });
+        await mkdir(`${assetsDir}/geojson`, { recursive: true });
+        await mkdir(`${assetsDir}/maps`, { recursive: true });
         await exec(
           `ogr2ogr -f GeoJSON ${kmlDir}/temp/output.json ${files[locationName]
             .split(" ")
@@ -150,6 +218,7 @@ const pbcopy = (data) => {
           `${kmlDir}/temp/output.json`,
           JSON.stringify(geoJson2D)
         );
+        await generateMap(geoJson2D, locationName);
         await exec(
           `ogr2ogr -f "ESRI Shapefile" ${kmlDir}/temp/output.shp ${kmlDir}/temp/output.json`
         );
@@ -163,7 +232,7 @@ const pbcopy = (data) => {
           shapeData
         )[1];
         await writeFile(
-          `${kmlDir}/geojson/${locationName}.json`,
+          `${assetsDir}/geojson/${locationName}.json`,
           JSON.stringify(geoJson2D)
         );
 
@@ -189,7 +258,7 @@ const pbcopy = (data) => {
         } else if (typeOfMigration === "UPDATE") {
           specialLocationMigration += `UPDATE atlas_driver_offer_bpp.special_location SET location_name = '${locationName}', category = '${category}', gates = ${gates}, geom = '${geometry}' WHERE location_name = '${locationName}';\n`;
         }
-        // specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
+        specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
         console.log(`done : ${files[locationName]}`);
       } catch (err) {
         console.log(`skipped : ${files[data["Location Name"]]}`, err);
@@ -206,19 +275,19 @@ const pbcopy = (data) => {
   }
 
   await rm(`${kmlDir}/temp`, { recursive: true, force: true });
-  await rm(__dirname + "/assets/migrations", { recursive: true, force: true });
+  await rm(assetsDir + "/migrations", { recursive: true, force: true });
   // pbcopy(migration);
-  await mkdir(__dirname + "/assets/migrations", { recursive: true });
+  await mkdir(assetsDir + "/migrations", { recursive: true });
   await writeFile(
-    __dirname + "/assets/migrations/special-location.sql",
+    assetsDir + "/migrations/special-location.sql",
     specialLocationMigration
   );
   await writeFile(
-    __dirname + "/assets/migrations/special-location-priority.sql",
+    assetsDir + "/migrations/special-location-priority.sql",
     specialLocationPriorityMigration
   );
   await writeFile(
-    __dirname + "/assets/migrations/fare-product.sql",
+    assetsDir + "/migrations/fare-product.sql",
     fareProductMigration
   );
 })();
