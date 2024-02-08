@@ -6,7 +6,10 @@ const reader = require("xlsx");
 const puppeteer = require("puppeteer");
 
 const typeOfMigration = "INSERT"; // "INSERT" | "UPDATE"
-const sheet = 0;
+const sheet = 1;
+
+const merchantId = "d2929b92-8b12-4e21-9efd-d6203940c4c5";
+const priority = [2, 3];
 
 const farePolicy = [
   {
@@ -154,8 +157,8 @@ const generateMap = async (geoJson, locationName) => {
         while (i < xlsxData.length) {
           let data = xlsxData[i];
           const gate = {
-            name: data["GatesInfo (name)"],
-            address: data["GatesInfo (address)"],
+            name: data["GatesInfo (name)"].replaceAll("'", "''"),
+            address: data["GatesInfo (address)"].replaceAll("'", "''"),
             lat: data["GatesInfo (LatLon)"].split(",")[0]?.trim(),
             lon: data["GatesInfo (LatLon)"].split(",")[1]?.trim(),
           };
@@ -186,7 +189,10 @@ const generateMap = async (geoJson, locationName) => {
         await exec(
           `ogr2ogr -f GeoJSON ${kmlDir}/temp/output.json ${files[locationName]
             .split(" ")
-            .join("\\ ")}`
+            .join("\\ ")
+            .replace("'", "\\'")
+            .replace("(", "\\(")
+            .replace(")", "\\)")}`
         );
         let geoJson3D = JSON.parse(
           await (await readFile(`${kmlDir}/temp/output.json`)).toString("utf8")
@@ -240,25 +246,33 @@ const generateMap = async (geoJson, locationName) => {
           specialLocationMigration += `INSERT INTO atlas_driver_offer_bpp.special_location (id, location_name, category, gates, geom, created_at)
     VALUES
     ( '${specialZoneId}'
-    , '${locationName}'
+    , '${locationName.replaceAll("'", "''")}'
     , '${category}'
     , ${gates}
     , '${geometry}'
     , now()
     );\n`;
 
-          specialLocationPriorityMigration += `INSERT INTO atlas_driver_offer_bpp.special_location_priority (id, merchant_id, category, pickup_priority, drop_priority) VALUES ('${uuidv4()}', '7f7896dd-787e-4a0b-8675-e9e6fe93bb8f', '${category}', 7, 7);\n`;
+          specialLocationPriorityMigration += `INSERT INTO atlas_driver_offer_bpp.special_location_priority (id, merchant_id, category, pickup_priority, drop_priority) VALUES ('${uuidv4()}', '${merchantId}', '${category}', ${
+            priority[0]
+          }, ${priority[1]});\n`;
 
           fareProductMigration += farePolicy
             .map(
               ({ id, variant }) =>
-                `INSERT INTO atlas_driver_offer_bpp.fare_product (id, merchant_id, fare_policy_id, vehicle_variant, "area", flow) VALUES ('${uuidv4()}','7f7896dd-787e-4a0b-8675-e9e6fe93bb8f','${id}','${variant}','Pickup_${specialZoneId}','NORMAL');\nINSERT INTO atlas_driver_offer_bpp.fare_product (id, merchant_id, fare_policy_id, vehicle_variant, "area", flow) VALUES ('${uuidv4()}','7f7896dd-787e-4a0b-8675-e9e6fe93bb8f','${id}','${variant}','Drop_${specialZoneId}','NORMAL');\n`
+                `INSERT INTO atlas_driver_offer_bpp.fare_product (id, merchant_id, fare_policy_id, vehicle_variant, "area", flow) VALUES ('${uuidv4()}','${merchantId}','${id}','${variant}','Pickup_${specialZoneId}','NORMAL');\nINSERT INTO atlas_driver_offer_bpp.fare_product (id, merchant_id, fare_policy_id, vehicle_variant, "area", flow) VALUES ('${uuidv4()}','${merchantId}','${id}','${variant}','Drop_${specialZoneId}','NORMAL');\n`
             )
             .join("");
         } else if (typeOfMigration === "UPDATE") {
-          specialLocationMigration += `UPDATE atlas_driver_offer_bpp.special_location SET location_name = '${locationName}', category = '${category}', gates = ${gates}, geom = '${geometry}' WHERE location_name = '${locationName}';\n`;
+          specialLocationMigration += `UPDATE atlas_driver_offer_bpp.special_location SET location_name = '${locationName.replaceAll(
+            "'",
+            "''"
+          )}', category = '${category}', gates = ${gates}, geom = '${geometry}' WHERE location_name = '${locationName.replaceAll(
+            "'",
+            "''"
+          )}';\n`;
         }
-        specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
+        // specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
         console.log(`done : ${files[locationName]}`);
       } catch (err) {
         console.log(`skipped : ${files[data["Location Name"]]}`, err);

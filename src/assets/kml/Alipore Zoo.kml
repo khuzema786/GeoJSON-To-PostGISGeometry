@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Alipore Zoo</name>
+    <Style id="poly-000000-2000-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-2000-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-2000-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-2000-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-2000-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Alipore Zoo</name>
+      <styleUrl>#poly-000000-2000-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              88.330507,22.540562,0
+              88.330174,22.53747,0
+              88.330443,22.537351,0
+              88.330421,22.536866,0
+              88.330486,22.536787,0
+              88.330432,22.53635,0
+              88.330582,22.536202,0
+              88.331258,22.535914,0
+              88.331312,22.534636,0
+              88.331129,22.534646,0
+              88.331054,22.534488,0
+              88.330711,22.53314,0
+              88.331902,22.533036,0
+              88.331993,22.533947,0
+              88.33217,22.53418,0
+              88.333181,22.53479,0
+              88.333404,22.5351,0
+              88.333525,22.53536,0
+              88.333677,22.537366,0
+              88.333769,22.538813,0
+              88.333146,22.539294,0
+              88.332277,22.539839,0
+              88.331483,22.540225,0
+              88.330507,22.540562,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

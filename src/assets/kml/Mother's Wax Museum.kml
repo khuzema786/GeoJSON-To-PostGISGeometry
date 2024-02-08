@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Mother's Wax Museum]]></name>
+    <Style id="poly-000000-2000-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-2000-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-2000-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-2000-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-2000-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name><![CDATA[Mother's Wax Museum]]></name>
+      <styleUrl>#poly-000000-2000-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              88.471348,22.600025,0
+              88.47149,22.599443,0
+              88.471667,22.599074,0
+              88.47171,22.598928,0
+              88.472289,22.59901,0
+              88.472498,22.599191,0
+              88.472756,22.599245,0
+              88.472954,22.599391,0
+              88.473064,22.599339,0
+              88.473201,22.599418,0
+              88.47322,22.599545,0
+              88.472992,22.600243,0
+              88.472842,22.600357,0
+              88.472714,22.600408,0
+              88.472592,22.600439,0
+              88.47216,22.600337,0
+              88.471594,22.60009,0
+              88.471348,22.600025,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

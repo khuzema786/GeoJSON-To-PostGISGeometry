@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","name":"New Market","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"New Market","Description":""},"geometry":{"type":"Polygon","coordinates":[[[88.350915,22.562272],[88.350733,22.560722],[88.352219,22.560508],[88.352455,22.562029],[88.350915,22.562272]]]}}]}
