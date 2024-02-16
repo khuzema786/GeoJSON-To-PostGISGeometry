@@ -272,7 +272,7 @@ const generateMap = async (geoJson, locationName) => {
             "''"
           )}';\n`;
         }
-        // specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
+        specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
         console.log(`done : ${files[locationName]}`);
       } catch (err) {
         console.log(`skipped : ${files[data["Location Name"]]}`, err);
