@@ -1,1 +1,0 @@
-{"type":"FeatureCollection","name":"Nicco Park","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Nicco Park","Description":""},"geometry":{"type":"Polygon","coordinates":[[[88.421197,22.572988],[88.420028,22.570759],[88.422281,22.570135],[88.423933,22.57173],[88.421197,22.572988]]]}}]}

@@ -1,1 +1,0 @@
-{"type":"FeatureCollection","name":"Howrah Bridge","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Howrah Bridge","Description":""},"geometry":{"type":"Polygon","coordinates":[[[88.349147,22.584388],[88.348536,22.582798],[88.349711,22.582427],[88.35044,22.583972],[88.349147,22.584388]]]}}]}

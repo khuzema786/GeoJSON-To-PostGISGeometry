@@ -22,10 +22,6 @@
 
 ## Usage / Installing
 
-1. Add the KML file to the `assets/kml` directory.
-2. Add the KML related information to the `assets/special-zones.xlsx` with locationName being same as `assets/kml/<filename>.kml`.
-3. In `kml_to_pgsl.js`, 
-   - `typeOfMigration` can be updated to UPDATE or INSERT based on the type of SQL queries that needs to be generated.
-   - `sheet` corresponds to zero index based excel sheet.
-   - `farePolicy` is used to generate Fare Product link queries for the special zones.
-4. Run `nix develop` in the root directory to build and run the script.
+1. Add the KML files to the `assets/kml` directory.
+2. Add the KML related XLSX file to the `assets/special-zones.xlsx`.
+3. Run `nix develop` in the root directory to build and run the script.

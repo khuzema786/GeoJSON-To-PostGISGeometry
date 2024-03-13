@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Halasuru_Metro_Station</name>
+  <Placemark>
+	<name>Shape file</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.626212754649,12.9759670160922,0 77.6264861659359,12.9757494081949,0 77.6272986624634,12.9769157236903,0 77.6270097051369,12.9770680079422,0 77.626212754649,12.9759670160922,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

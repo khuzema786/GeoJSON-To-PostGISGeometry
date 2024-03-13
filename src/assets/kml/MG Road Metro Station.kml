@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Metro Special Pickup Zone</name>
+	<gx:CascadingStyle kml:id="__managed_style_253B511B682F48680040">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1EC792FB1F2F48680040">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06AE54ED072F48680040">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1EC792FB1F2F48680040</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_253B511B682F48680040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0890CCBBFD2EDC9C3C63">
+		<name>M.G Road Metro Station</name>
+		<LookAt>
+			<longitude>77.60657969433541</longitude>
+			<latitude>12.97520389919662</latitude>
+			<altitude>951.0442756401545</altitude>
+			<heading>352.1773561305662</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>511.4363048550878</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06AE54ED072F48680040</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.6065729895345,12.97545213134937,0 77.6064591420736,12.97472200995371,0 77.60651460695139,12.97471046172088,0 77.60672402456022,12.97465683704386,0 77.60674821024352,12.97475472497809,0 77.60688768429345,12.97537658616227,0 77.6075100525285,12.97521444935697,0 77.60760815825788,12.97557289143462,0 77.6062200984217,12.97589550260541,0 77.60612807815764,12.97560258431178,0 77.6065729895345,12.97545213134937,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

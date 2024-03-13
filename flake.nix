@@ -32,6 +32,7 @@
           pkgs.nodePackages.typescript-language-server
 
           pkgs.gdal
+          pkgs.postgis
         ];
 
         shellHook = ''

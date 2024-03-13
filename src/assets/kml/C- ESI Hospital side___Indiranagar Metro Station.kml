@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Indira Nagar metro</name>
+	<gx:CascadingStyle kml:id="__managed_style_0DBF1CF0462F6C7C2F31">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1A68F638C72F6C7C2F30">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0771D5030C2F6C7C2F30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A68F638C72F6C7C2F30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0DBF1CF0462F6C7C2F31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="09092A03EA2F67F918CA">
+		<name>Auto Pickup  zone</name>
+		<LookAt>
+			<longitude>77.63879115825372</longitude>
+			<latitude>12.97791615020718</latitude>
+			<altitude>923.9012568879442</altitude>
+			<heading>0.6197926178349166</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>531.1814408152713</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0771D5030C2F6C7C2F30</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.6383740935762,12.97824761045911,0 77.63839117743251,12.97818572243205,0 77.63839013136345,12.97813638899666,0 77.6390447997809,12.97814499208041,0 77.63903977454584,12.97819416864963,0 77.6390461415389,12.97815166365726,0 77.63903396800484,12.97825342048052,0 77.6383740935762,12.97824761045911,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

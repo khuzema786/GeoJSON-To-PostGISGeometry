@@ -6,9 +6,8 @@ const reader = require("xlsx");
 const puppeteer = require("puppeteer");
 
 const typeOfMigration = "INSERT"; // "INSERT" | "UPDATE"
-const sheet = 1;
 
-const merchantId = "d2929b92-8b12-4e21-9efd-d6203940c4c5";
+const merchantId = "7f7896dd-787e-4a0b-8675-e9e6fe93bb8f";
 const priority = [2, 3];
 
 const farePolicy = [
@@ -47,7 +46,9 @@ const pbcopy = (data) => {
   proc.stdin.end();
 };
 
-const generateMap = async (geoJson, locationName) => {
+let allGeoJsons = [];
+
+const generateMap = async (locationName) => {
   // Create a simple HTML file with Leaflet
   const html = `
 <!DOCTYPE html>
@@ -69,27 +70,21 @@ const generateMap = async (geoJson, locationName) => {
     const map = L.map('map').setView([0, 0], 2); // Set initial view
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    // Add terrain view
-    L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
-      attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
-    }).addTo(map);
+    // Loop through GeoJSONs and add them as layers
+    ${allGeoJsons
+      .map(
+        (geoJson, index) => `
+    const geoJsonLayer${index} = L.geoJSON(${JSON.stringify(geoJson)});
+    geoJsonLayer${index}.addTo(map);
+    `
+      )
+      .join("\n")}
 
-    // Add places layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'Map tiles by OpenStreetMap, under ODbL.',
-    }).addTo(map);
-
-    // Add roads layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'Map tiles by OpenStreetMap, under ODbL.',
-    }).addTo(map);
-
-    // Zoom to GeoJSON bounds
-    const geoJsonLayer = L.geoJSON(${JSON.stringify(geoJson)});
-    map.fitBounds(geoJsonLayer.getBounds());
-
-    // Add GeoJSON data to the map
-    geoJsonLayer.addTo(map);
+    // Zoom to the bounds of all GeoJSON layers
+    const group = new L.featureGroup([${allGeoJsons
+      .map((_, index) => `geoJsonLayer${index}`)
+      .join(",")}]);
+    map.fitBounds(group.getBounds());
   </script>
 </body>
 </html>
@@ -112,11 +107,58 @@ const generateMap = async (geoJson, locationName) => {
   await browser.close();
 };
 
-(async () => {
-  const file = reader.readFile(assetsDir + "/special-zones.xlsx");
-  const xlsxData = reader.utils.sheet_to_json(
-    file.Sheets[file.SheetNames[sheet]]
+const getGeometry = async (files, locationName) => {
+  await mkdir(`${kmlDir}/temp`, { recursive: true });
+  await mkdir(`${assetsDir}/geojson`, { recursive: true });
+  await mkdir(`${assetsDir}/maps`, { recursive: true });
+
+  await exec(
+    `ogr2ogr -f GeoJSON ${kmlDir}/temp/output.json ${files[locationName]
+      .split(" ")
+      .join("\\ ")
+      .replace("'", "\\'")
+      .replace("(", "\\(")
+      .replace(")", "\\)")}`
   );
+  let geoJson3D = JSON.parse(
+    await (await readFile(`${kmlDir}/temp/output.json`)).toString("utf8")
+  );
+  const geoJson2D = {
+    ...geoJson3D,
+    features: geoJson3D.features.map((feature) => ({
+      ...feature,
+      geometry: {
+        ...feature.geometry,
+        coordinates: feature.geometry.coordinates.map((coordinate) => {
+          return coordinate.map((coordinate_) => [
+            coordinate_[0],
+            coordinate_[1],
+          ]);
+        }),
+      },
+    })),
+  };
+  await writeFile(`${kmlDir}/temp/output-3d.json`, JSON.stringify(geoJson3D));
+  await writeFile(`${kmlDir}/temp/output.json`, JSON.stringify(geoJson2D));
+  allGeoJsons.push(geoJson2D);
+  await exec(
+    `ogr2ogr -f "ESRI Shapefile" ${kmlDir}/temp/output.shp ${kmlDir}/temp/output.json`
+  );
+  await exec(`shp2pgsql ${kmlDir}/temp/output.shp > ${kmlDir}/temp/output.sql`);
+  const shapeData = await (
+    await readFile(`${kmlDir}/temp/output.sql`)
+  ).toString("utf8");
+  const geometry = /INSERT INTO .* VALUES \(.*'(.*)'\);/gm.exec(shapeData)[1];
+  await writeFile(
+    `${assetsDir}/geojson/${locationName}.json`,
+    JSON.stringify(geoJson2D)
+  );
+  return geometry;
+};
+
+(async () => {
+  const file = reader.readFile(assetsDir + `/special-zones.xlsx`);
+  const xlsxData = reader.utils.sheet_to_json(file.Sheets[file.SheetNames[0]]);
 
   const files = {};
   const processDir = async (dirname) => {
@@ -134,11 +176,13 @@ const generateMap = async (geoJson, locationName) => {
   await processDir(kmlDir);
 
   let specialLocationMigration = "";
+  let specialLocationGatesMigration = "";
   let specialLocationPriorityMigration = "";
   let fareProductMigration = "";
 
   let i = 0;
   while (i < xlsxData.length) {
+    allGeoJsons = [];
     let data = xlsxData[i];
     const locationName = data["Location Name"];
     if (locationName) {
@@ -151,96 +195,56 @@ const generateMap = async (geoJson, locationName) => {
 
         const specialZoneId = uuidv4();
         const category = data["Category"];
-        let gates = "";
+        const gates = [];
+        let gatesAsStr = "";
 
         let flag = true;
         while (i < xlsxData.length) {
           let data = xlsxData[i];
+          if (!flag && data["Location Name"]) break;
+          const gateName = data["GatesInfo (name)"].replaceAll("'", "''");
+          console.log(
+            `Gate => ${gateName + "___" + locationName}`,
+            `Geom => ${data["GatesInfo (geom)"] === "TRUE"}`
+          );
           const gate = {
-            name: data["GatesInfo (name)"].replaceAll("'", "''"),
+            name: gateName,
             address: data["GatesInfo (address)"].replaceAll("'", "''"),
+            driver_extra: data["GatesInfo (default_driver_extra)"].toString(),
+            can_queue_up: data["GatesInfo (can_queue_up_on_gate)"].replaceAll(
+              "'",
+              "''"
+            ),
             lat: data["GatesInfo (LatLon)"].split(",")[0]?.trim(),
             lon: data["GatesInfo (LatLon)"].split(",")[1]?.trim(),
+            geom:
+              data["GatesInfo (geom)"] === "TRUE"
+                ? await getGeometry(files, gateName + "___" + locationName)
+                : null,
           };
+          gates.push(gate);
           if (flag) {
             flag = !flag;
-            gates += `"GatesInfo { point = LatLong {lat = ${gate.lat}, lon = ${
-              gate.lon
-            }}, name = \\"${gate.name}\\", address = ${
-              gate.address ? `Just \\"${gate.address}\\"` : '\\"Nothing\\"'
-            } }"`;
-          } else if (!data["Location Name"]) {
-            gates += `, "GatesInfo { point = LatLong {lat = ${
+            gatesAsStr += `"GatesInfo { point = LatLong {lat = ${
               gate.lat
             }, lon = ${gate.lon}}, name = \\"${gate.name}\\", address = ${
               gate.address ? `Just \\"${gate.address}\\"` : '\\"Nothing\\"'
             } }"`;
           } else {
-            break;
+            gatesAsStr += `, "GatesInfo { point = LatLong {lat = ${
+              gate.lat
+            }, lon = ${gate.lon}}, name = \\"${gate.name}\\", address = ${
+              gate.address ? `Just \\"${gate.address}\\"` : '\\"Nothing\\"'
+            } }"`;
           }
+
           i++;
         }
 
-        gates = "'{" + gates + "}'";
+        gatesAsStr = "'{" + gatesAsStr + "}'";
 
-        await mkdir(`${kmlDir}/temp`, { recursive: true });
-        await mkdir(`${assetsDir}/geojson`, { recursive: true });
-        await mkdir(`${assetsDir}/maps`, { recursive: true });
-        await exec(
-          `ogr2ogr -f GeoJSON ${kmlDir}/temp/output.json ${files[locationName]
-            .split(" ")
-            .join("\\ ")
-            .replace("'", "\\'")
-            .replace("(", "\\(")
-            .replace(")", "\\)")}`
-        );
-        let geoJson3D = JSON.parse(
-          await (await readFile(`${kmlDir}/temp/output.json`)).toString("utf8")
-        );
-        const geoJson2D = {
-          ...geoJson3D,
-          features: geoJson3D.features.map((feature) => ({
-            ...feature,
-            geometry: {
-              ...feature.geometry,
-              coordinates: feature.geometry.coordinates.map((coordinate) => {
-                // if (Array.isArray(coordinate) && Array.isArray(coordinate[0])) {
-                return coordinate.map((coordinate_) => [
-                  coordinate_[0],
-                  coordinate_[1],
-                ]);
-                // } else {
-                //   return [coordinate[0], coordinate[1]];
-                // }
-              }),
-            },
-          })),
-        };
-        await writeFile(
-          `${kmlDir}/temp/output-3d.json`,
-          JSON.stringify(geoJson3D)
-        );
-        await writeFile(
-          `${kmlDir}/temp/output.json`,
-          JSON.stringify(geoJson2D)
-        );
-        await generateMap(geoJson2D, locationName);
-        await exec(
-          `ogr2ogr -f "ESRI Shapefile" ${kmlDir}/temp/output.shp ${kmlDir}/temp/output.json`
-        );
-        await exec(
-          `shp2pgsql ${kmlDir}/temp/output.shp > ${kmlDir}/temp/output.sql`
-        );
-        const shapeData = await (
-          await readFile(`${kmlDir}/temp/output.sql`)
-        ).toString("utf8");
-        const geometry = /INSERT INTO .* VALUES \(.*'(.*)'\);/gm.exec(
-          shapeData
-        )[1];
-        await writeFile(
-          `${assetsDir}/geojson/${locationName}.json`,
-          JSON.stringify(geoJson2D)
-        );
+        const geometry = await getGeometry(files, locationName);
+        await generateMap(locationName);
 
         if (typeOfMigration === "INSERT") {
           specialLocationMigration += `INSERT INTO atlas_driver_offer_bpp.special_location (id, location_name, category, gates, geom, created_at)
@@ -248,10 +252,23 @@ const generateMap = async (geoJson, locationName) => {
     ( '${specialZoneId}'
     , '${locationName.replaceAll("'", "''")}'
     , '${category}'
-    , ${gates}
+    , ${gatesAsStr}
     , '${geometry}'
     , now()
     );\n`;
+
+          specialLocationGatesMigration += gates
+            .map(
+              (gate) =>
+                `INSERT INTO atlas_driver_offer_bpp.gate_info (id, point, special_location_id, default_driver_extra, name, geom, address, can_queue_up_on_gate) VALUES ('${uuidv4()}','LatLong {lat = ${
+                  gate.lat
+                }, lon = ${gate.lon}}','${specialZoneId}','${
+                  gate.driver_extra
+                }','${gate.name}',${gate.geom ? `'${gate.geom}'` : "NULL"},'${
+                  gate.address
+                }',${gate.can_queue_up.toLowerCase()});\n`
+            )
+            .join("");
 
           specialLocationPriorityMigration += `INSERT INTO atlas_driver_offer_bpp.special_location_priority (id, merchant_id, category, pickup_priority, drop_priority) VALUES ('${uuidv4()}', '${merchantId}', '${category}', ${
             priority[0]
@@ -267,10 +284,23 @@ const generateMap = async (geoJson, locationName) => {
           specialLocationMigration += `UPDATE atlas_driver_offer_bpp.special_location SET location_name = '${locationName.replaceAll(
             "'",
             "''"
-          )}', category = '${category}', gates = ${gates}, geom = '${geometry}' WHERE location_name = '${locationName.replaceAll(
+          )}', category = '${category}', gates = ${gatesAsStr}, geom = '${geometry}' WHERE location_name = '${locationName.replaceAll(
             "'",
             "''"
           )}';\n`;
+
+          specialLocationGatesMigration += gates
+            .map(
+              (gate) =>
+                `INSERT INTO atlas_driver_offer_bpp.gate_info (id, point, special_location_id, default_driver_extra, name, geom, address, can_queue_up_on_gate) VALUES ('${uuidv4()}','LatLong {lat = ${
+                  gate.lat
+                }, lon = ${gate.lon}}','${specialZoneId}','${
+                  gate.driver_extra
+                }','${gate.name}',${gate.geom ? `'${gate.geom}'` : "NULL"},'${
+                  gate.address
+                }',${gate.can_queue_up.toLowerCase()});\n`
+            )
+            .join("");
         }
         specialLocationMigration += `SELECT ST_AsGeoJSON(ST_MakeValid('${geometry}')) AS geojson;\n`;
         console.log(`done : ${files[locationName]}`);
@@ -295,6 +325,10 @@ const generateMap = async (geoJson, locationName) => {
   await writeFile(
     assetsDir + "/migrations/special-location.sql",
     specialLocationMigration
+  );
+  await writeFile(
+    assetsDir + "/migrations/special-location-gates.sql",
+    specialLocationGatesMigration
   );
   await writeFile(
     assetsDir + "/migrations/special-location-priority.sql",

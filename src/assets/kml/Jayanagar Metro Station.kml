@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Jayanagar_Metro_Station</name>
+  <Placemark>
+	<name>metro shape file</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5799340190067,12.9303481849311,0 77.5799113272261,12.929593788944,0 77.5799202398669,12.9289512920795,0 77.5799292486623,12.9287371999643,0 77.5806364977506,12.9287564469777,0 77.5805927320423,12.9295739890006,0 77.5804704145423,12.9303575638026,0 77.5801772006445,12.9303800880079,0 77.5799340190067,12.9303481849311,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

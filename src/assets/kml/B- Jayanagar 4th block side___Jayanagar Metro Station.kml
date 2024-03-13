@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>B_Entrance_Jayanagar_4th_block_side___Jayanagar_Metro_Station</name>
+  <Placemark>
+	<name>AB SZ</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5805116253122,12.9292991554239,0 77.5805310092995,12.9289549953772,0 77.5802563610163,12.9289023989667,0 77.580256533785,12.9287340391888,0 77.5806536575472,12.9287577471048,0 77.5807919362984,12.9287803250488,0 77.5807906032926,12.9288300348716,0 77.5806370958549,12.9288127340751,0 77.5806179727909,12.9293175874049,0 77.5805116253122,12.9292991554239,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
