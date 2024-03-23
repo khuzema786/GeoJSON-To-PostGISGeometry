@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1nvIGBLg-P7Mtcm2xEh-6ek4YSRlyLuNn">
+	<name>Sri Parthasarathy Temple</name>
+	<gx:CascadingStyle kml:id="__managed_style_31849B20262F7BF5F0B8">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2EB6626D272F7BF5F0B8">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1FC6E725042F7BF5F0B8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2EB6626D272F7BF5F0B8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_31849B20262F7BF5F0B8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="085B8E69B72F775311E3">
+		<name>Parthasarathy Temple</name>
+		<LookAt>
+			<longitude>80.27670190930563</longitude>
+			<latitude>13.05391971004293</latitude>
+			<altitude>31.13405527405174</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>546.2777066062699</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_1FC6E725042F7BF5F0B8</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27572943667177,13.0542981830139,0 80.27568854310692,13.05382155191221,0 80.27577982563233,13.05377030698397,0 80.27747260639555,13.05367823289493,0 80.27746801284061,13.05344528506753,0 80.27815731248731,13.05330288968142,0 80.27835221132209,13.05389714131143,0 80.27843609762547,13.05423120062136,0 80.27766445157415,13.05441168344106,0 80.27753730612656,13.05405467234918,0 80.27702603014009,13.05411454936981,0 80.27692102249516,13.05419825571665,0 80.27572943667177,13.0542981830139,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

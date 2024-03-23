@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1mbBcp6ofVpqnkNCAtdhjHTNc3Gtvwxlm">
+	<name>Rajiv Gandhi Govt Hospital</name>
+	<gx:CascadingStyle kml:id="__managed_style_37CDFB3B632F7C7B5CBE">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_279318CCD22F7C7B5CBE">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1633CA81EA2F7C7B5CBE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_279318CCD22F7C7B5CBE</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_37CDFB3B632F7C7B5CBE</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0AF7B882B22F772A514C">
+		<name>Rajiv Gandhi Govt. Hospital</name>
+		<LookAt>
+			<longitude>80.27818773976681</longitude>
+			<latitude>13.08153630108111</latitude>
+			<altitude>30.60392161367932</altitude>
+			<heading>51.83366941808082</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1374.075726818555</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_1633CA81EA2F7C7B5CBE</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27598595330927,13.08167314695208,0 80.27559187388772,13.08158378531472,0 80.27545609194478,13.0813767968535,0 80.2754404233153,13.0808486028773,0 80.27551986441159,13.08009516094197,0 80.27567207741072,13.0799968234821,0 80.27660263533616,13.07984113820172,0 80.27730220989559,13.07989405193008,0 80.2778574833952,13.0799702169348,0 80.27796442726726,13.0799075449519,0 80.27812504975181,13.07989364960462,0 80.27863535029879,13.07996355859599,0 80.27930783053002,13.08005491369727,0 80.2796478780993,13.08017061179964,0 80.28038993533107,13.08049309864483,0 80.28066554652717,13.08097241440704,0 80.2807860045765,13.08138344528022,0 80.28100965938337,13.08167121028884,0 80.28118528968123,13.08204734941738,0 80.28110359115531,13.08216532938808,0 80.28044349253418,13.08214789274746,0 80.279680769916,13.08206964141904,0 80.27896147311388,13.08203173510761,0 80.2774539843408,13.08187506371159,0 80.27598595330927,13.08167314695208,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

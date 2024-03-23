@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1HOGaUsOr1tYspsR_HMRB45sqOWveXw4a">
+	<name>Tambaram Railway Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_5D2B02FBDE2F7C95A520">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4A61E5EF832F7C95A520">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_384FADEE1A2F7C95A520">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4A61E5EF832F7C95A520</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5D2B02FBDE2F7C95A520</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A3A9344402F76EA21AF">
+		<name>Tambaram Railway Station</name>
+		<LookAt>
+			<longitude>80.11729005522855</longitude>
+			<latitude>12.92588220240248</latitude>
+			<altitude>39.41530975549156</altitude>
+			<heading>-74.23633356638122</heading>
+			<tilt>0.8496036566360833</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>284.2671836165391</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_384FADEE1A2F7C95A520</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.1198445598328,12.92411696925517,0 80.11959776592118,12.92452762427286,0 80.11940452864209,12.92510659049334,0 80.12036780122426,12.92624785108056,0 80.11980055389458,12.92687840913371,0 80.11926553010741,12.92672906930703,0 80.11862149024098,12.9266169279247,0 80.11801878102027,12.92662617948829,0 80.11781961685567,12.92644013744085,0 80.11749709157412,12.92614114808142,0 80.11745757573621,12.92608711940004,0 80.11741154894517,12.92603552704377,0 80.11734350752285,12.92595443869081,0 80.11729845521251,12.92588294284597,0 80.11727210141676,12.92583128699009,0 80.11683476571902,12.92540603973207,0 80.11648554509964,12.92508559639829,0 80.11643761462537,12.92501345301082,0 80.11694612363927,12.92473035731863,0 80.11751860256749,12.92428236593898,0 80.11859055809047,12.92457995115428,0 80.1193172431346,12.9242380236504,0 80.11998780791302,12.92344430486281,0 80.12033321384817,12.92341117993177,0 80.120332530179,12.9235246587053,0 80.1198445598328,12.92411696925517,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1LT9yTqprBX65QpW4BiT9BY-A8SJpz4K6">
+	<name>Kalaignar Centenary Bus Terminus - Kilambakkam</name>
+	<gx:CascadingStyle kml:id="__managed_style_43BDAE11312F7C955402">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_54F57719362F7C955402">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3B38D797692F7C955402">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_43BDAE11312F7C955402</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_54F57719362F7C955402</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0FD2BF2FA02F76EFA6CB">
+		<name>Kilambakkam Bus Terminus</name>
+		<LookAt>
+			<longitude>80.07888361327574</longitude>
+			<latitude>12.87391228887437</latitude>
+			<altitude>39.74382018745936</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>622.1856888102776</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3B38D797692F7C955402</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.08172013954049,12.87055879277538,0 80.08246333872366,12.87053033865241,0 80.08330096220372,12.87084907982359,0 80.08378061541723,12.87133810842941,0 80.08432666712054,12.87215579902501,0 80.08451453832036,12.87252905445219,0 80.08489870457868,12.87305118014855,0 80.08460786973966,12.87329843433615,0 80.08327318807612,12.87376972867243,0 80.08202002066494,12.87439018707314,0 80.0801422985306,12.87509314005273,0 80.07902043297298,12.875431047126,0 80.07888910022263,12.87523343010502,0 80.07865503307896,12.8747433040946,0 80.07851921840602,12.87469734013516,0 80.07838177449744,12.87436281371016,0 80.0783404714366,12.8739577158563,0 80.07807738087402,12.87332144656636,0 80.07788775790711,12.87275834091593,0 80.07863360835057,12.87218207281738,0 80.07901799626046,12.87178462540421,0 80.08172013954049,12.87055879277538,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

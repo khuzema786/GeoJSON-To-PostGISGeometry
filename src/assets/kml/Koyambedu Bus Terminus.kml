@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="16UdC7Qi6ueAC1A9I2IARX-jH2Szv_dT3">
+	<name>Koyambedu Bus Terminus</name>
+	<gx:CascadingStyle kml:id="__managed_style_2B2B60E7AE2F7C1DBA90">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18014CDDB12F7C1DBA90">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0FF59CE01D2F7C1DBA90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18014CDDB12F7C1DBA90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2B2B60E7AE2F7C1DBA90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="09BB8D7E432F77403B89">
+		<name>Koyambedu Bus terminus</name>
+		<LookAt>
+			<longitude>80.20512365280982</longitude>
+			<latitude>13.06883941028881</latitude>
+			<altitude>27.300000089449</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>570.2629525933299</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0FF59CE01D2F7C1DBA90</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.20475292237506,13.06985466870652,0 80.20464151452303,13.06936491818048,0 80.20460292019553,13.0690357613596,0 80.20458371282886,13.06860282310486,0 80.20458942727635,13.06829614298119,0 80.20472589416723,13.06796407288051,0 80.20475284978764,13.0673452817349,0 80.20486443785008,13.06717765150512,0 80.20534825592139,13.06689972920686,0 80.20585742706069,13.06690377657626,0 80.20640142637201,13.06707196987626,0 80.20637527774525,13.06772992273509,0 80.20641565674185,13.06829419660759,0 80.20663058438541,13.06862408365952,0 80.20658634895941,13.06870351117752,0 80.20609219178061,13.06901585530212,0 80.20581923414991,13.0692262972925,0 80.20550719261844,13.06938534466745,0 80.20475292237506,13.06985466870652,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

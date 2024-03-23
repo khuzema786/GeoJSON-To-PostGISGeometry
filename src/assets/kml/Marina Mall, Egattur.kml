@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="18uto4yf5Ii7nsr8rFYfxEFnw2OKySze8">
+	<name>Marina Mall, Egattur</name>
+	<gx:CascadingStyle kml:id="__managed_style_4777FFE5052F7C8B5ACC">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_05EC1CBFD02F7C8B5ACD">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_34627C9CF12F7C8B5ACC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4777FFE5052F7C8B5ACC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_05EC1CBFD02F7C8B5ACD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0D88BD28CC2F770BF759">
+		<name>Marina Mall</name>
+		<LookAt>
+			<longitude>80.23014500519122</longitude>
+			<latitude>12.83581941633682</latitude>
+			<altitude>19.714522489276</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>718.8113853988034</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_34627C9CF12F7C8B5ACC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.22859222621935,12.83631779787046,0 80.22865089472688,12.83577947561506,0 80.22868924001774,12.83558431638584,0 80.22878725162376,12.83556450134188,0 80.22884283881054,12.83535913578436,0 80.22929417089824,12.83532869860347,0 80.22993991186675,12.83549456312675,0 80.23021052851043,12.8356232296122,0 80.23020629045732,12.83637635573307,0 80.23030959775042,12.83654991176963,0 80.22855203786851,12.83659619444528,0 80.22859222621935,12.83631779787046,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

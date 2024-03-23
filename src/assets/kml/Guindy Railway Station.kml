@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="13LWDvidfy-msiE9xx92ROoEIFZl_wPXg">
+	<name>Guindy Railway Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_56993E5D6E2F7C91D71E">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_41F75086B42F7C91D71E">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_35FAE738A52F7C91D71E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_41F75086B42F7C91D71E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_56993E5D6E2F7C91D71E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="086C2A70452F76FE2499">
+		<name>Guindy Railway Station</name>
+		<LookAt>
+			<longitude>80.2127460141983</longitude>
+			<latitude>13.00892542649224</latitude>
+			<altitude>30.68902259616355</altitude>
+			<heading>20.19907583171801</heading>
+			<tilt>30.76357938117722</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>727.4555174352282</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_35FAE738A52F7C91D71E</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.21329116195166,13.00799488300379,0 80.21335579361966,13.00809699112304,0 80.21340699644077,13.00817588225875,0 80.21346406648385,13.00828903670001,0 80.21329291021263,13.00840306700198,0 80.21333637810636,13.00857914109431,0 80.21342102302079,13.00873092712384,0 80.21432875432734,13.0093620472721,0 80.21490914176179,13.00973287524992,0 80.21465605051429,13.00992989789814,0 80.21383289615225,13.00966079154518,0 80.2134661803284,13.00952773315498,0 80.21331101614525,13.00946452173537,0 80.21299034196346,13.00939639009204,0 80.21247989207193,13.00927092814465,0 80.21237197090768,13.00906733629451,0 80.21217055619731,13.00904841018391,0 80.2120718756734,13.00904459610252,0 80.21198132965164,13.00901784070057,0 80.21208806315391,13.00875714738441,0 80.21227129825392,13.00836344284039,0 80.21164315570861,13.00788960095728,0 80.21192229379707,13.00752275017473,0 80.21263576019811,13.00811303303555,0 80.21285456092605,13.00803840836325,0 80.21292312598206,13.00806969953264,0 80.21329116195166,13.00799488300379,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1LOLSrcfrPB5wpEMz3seCYzeQXEfY05rc">
+	<name>Ethiraj Women&apos;s College</name>
+	<gx:CascadingStyle kml:id="__managed_style_24EEABD3492F8737B7D5">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_183934C5642F8737B7D5">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06D1D8930A2F8737B7D5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_183934C5642F8737B7D5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_24EEABD3492F8737B7D5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="022CE322CA2F774492FD">
+		<name>Ethiraj College</name>
+		<LookAt>
+			<longitude>80.25725907386406</longitude>
+			<latitude>13.06288040438533</latitude>
+			<altitude>34.30520731974973</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>542.8264229960042</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06D1D8930A2F8737B7D5</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.2565713305106,13.06167647945622,0 80.25690415311227,13.06143104332799,0 80.25743295938965,13.06123653610282,0 80.25812838476705,13.06132482980362,0 80.2591051463651,13.0619372105234,0 80.25964512484876,13.06252248411885,0 80.25913546880597,13.06341534451561,0 80.25919941720076,13.06401206379762,0 80.25909681127401,13.06455906949117,0 80.25864197628015,13.06479576850681,0 80.25694059915962,13.06311117347787,0 80.25591687733093,13.06401753265491,0 80.25588829968007,13.06340080801261,0 80.25589942410672,13.06297484938044,0 80.25601827590424,13.06252114056409,0 80.25623848946195,13.06201946128152,0 80.2565713305106,13.06167647945622,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

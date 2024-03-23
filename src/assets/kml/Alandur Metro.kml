@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1gy9A36MumHIy3SglTXx7jeaDxQku4q8n">
+	<name>Alandur Metro</name>
+	<gx:CascadingStyle kml:id="__managed_style_09C6FD6A632F7BEF6A40">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E1534BFCE2F7BEF6A3F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0CEC5F1DF72F7BEF6A3F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E1534BFCE2F7BEF6A3F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_09C6FD6A632F7BEF6A40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="05C14C105E2F77001726">
+		<name>Alandur Metro</name>
+		<LookAt>
+			<longitude>80.2015204434191</longitude>
+			<latitude>13.00445510220062</latitude>
+			<altitude>33.86763189864929</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>430.7486381111084</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0CEC5F1DF72F7BEF6A3F</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.20165627071071,13.00501813541446,0 80.20159778836965,13.00499368259597,0 80.201407234073,13.00455885864297,0 80.20137617655044,13.00448123091014,0 80.20132811454964,13.00447738151017,0 80.20124301999952,13.00429769055938,0 80.20129039166457,13.00426385642082,0 80.20097556779507,13.003621570384,0 80.20122998651505,13.00346515320403,0 80.20138883088137,13.00349817942898,0 80.20151105191486,13.00346406178826,0 80.20177984189941,13.00405604266569,0 80.20195787449188,13.0045127095142,0 80.20207683320373,13.00476957908625,0 80.20211210657806,13.00489877763082,0 80.20200811242563,13.0050788488138,0 80.201798856105,13.00515848560113,0 80.20165627071071,13.00501813541446,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

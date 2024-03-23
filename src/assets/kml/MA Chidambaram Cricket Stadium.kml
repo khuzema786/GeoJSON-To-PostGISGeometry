@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1k4CmlzuL8D6k-jWviXXHH4hzsfAklTA_">
+	<name>MA Chidambaram Cricket Stadium</name>
+	<gx:CascadingStyle kml:id="__managed_style_4E2EEDCC5E2F7C800622">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_53F2A4D3BE2F7C800622">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3D9C30C3C02F7C800622">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4E2EEDCC5E2F7C800622</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_53F2A4D3BE2F7C800622</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="06D53E037C2F77207299">
+		<name>MA Chidambaram Stadium</name>
+		<LookAt>
+			<longitude>80.27970428153866</longitude>
+			<latitude>13.06410913915487</latitude>
+			<altitude>30.94412684068756</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>682.8939867749433</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3D9C30C3C02F7C800622</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.28065607394625,13.06422925138188,0 80.27841537206146,13.06477687253533,0 80.27795211488069,13.06205586912516,0 80.27776466345534,13.06094487679808,0 80.27773742244575,13.06077239631364,0 80.27894408302465,13.06054337257376,0 80.27938966880458,13.06109768317168,0 80.27975026364855,13.06166398178123,0 80.28034057480683,13.06166880447153,0 80.28044863332568,13.0626077107866,0 80.28058609823232,13.06408815559097,0 80.28065607394625,13.06422925138188,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

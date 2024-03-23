@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1lFznSnX_PP_O73B8yHHy7VhO-4opwqen">
+	<name>DLF IT Park</name>
+	<gx:CascadingStyle kml:id="__managed_style_08DF3057642F7C7E71A9">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4FEBC1885A2F7C7E71A8">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3C7154EE642F7C7E71A8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4FEBC1885A2F7C7E71A8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_08DF3057642F7C7E71A9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0AEC6115302F77242FBB">
+		<name>DLF IT Park Porur</name>
+		<LookAt>
+			<longitude>80.17532614478299</longitude>
+			<latitude>13.0224653322973</latitude>
+			<altitude>27.06904270195213</altitude>
+			<heading>-176.3053914994418</heading>
+			<tilt>39.46942823351326</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1076.866032653925</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3C7154EE642F7C7E71A8</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.17663414210422,13.02371231913872,0 80.17608090312693,13.02375141232709,0 80.17560396974712,13.02377539365897,0 80.17530677628464,13.0238766278534,0 80.17501585098411,13.0242689578978,0 80.17477813313748,13.02435911343881,0 80.1746883662545,13.02409728854775,0 80.17457054649273,13.02385271486646,0 80.17466982096887,13.02376241858013,0 80.17446615931721,13.02323192284623,0 80.17413498866041,13.02326623229214,0 80.17388387284481,13.02354319073691,0 80.17345419488721,13.02365300438007,0 80.17334095952842,13.02352274009783,0 80.17318175537872,13.02301539251347,0 80.17302422274038,13.02246664770483,0 80.17329863218187,13.02236790722583,0 80.17314547717909,13.02197969177614,0 80.17340882857771,13.02181884617265,0 80.17334221282997,13.02170797086844,0 80.17325746953772,13.02148027414964,0 80.17310940817723,13.02152221002129,0 80.17289338820326,13.02073246113302,0 80.17311140984356,13.02065093751793,0 80.17305247676501,13.02045194940496,0 80.17319356336235,13.02038851650174,0 80.1730656940078,13.01997840779281,0 80.17314368584483,13.01990288452786,0 80.17337891863544,13.01979333557283,0 80.17382146753772,13.01987402007219,0 80.17415482378958,13.02047158037357,0 80.17522295515373,13.02017400721539,0 80.17574711998901,13.02010514339238,0 80.17643752622652,13.02056134747397,0 80.1769597645587,13.02123777595352,0 80.17722867392263,13.02215861138293,0 80.1768847642761,13.0223012087567,0 80.17712693117213,13.02304505739616,0 80.17714126851845,13.02342036253066,0 80.17723818228387,13.02394565116476,0 80.17749560664899,13.02440818024566,0 80.17716934824588,13.02457262353199,0 80.17663414210422,13.02371231913872,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

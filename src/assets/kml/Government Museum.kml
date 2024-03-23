@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1bT3ifnrq7_eeOj3wWaMse0Y8S58FEA62">
+	<name>Government Museum</name>
+	<gx:CascadingStyle kml:id="__managed_style_32C93777C02F7C956C18">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2CEF8103F62F7C956C18">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_14779802F02F7C956C18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2CEF8103F62F7C956C18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_32C93777C02F7C956C18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0299950D022F77509A60">
+		<name>Government Museum</name>
+		<LookAt>
+			<longitude>80.25689606702662</longitude>
+			<latitude>13.07080738209866</latitude>
+			<altitude>34.46844092051439</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1108.036844349699</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_14779802F02F7C956C18</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.25634047811933,13.07061010524146,0 80.25537483331355,13.06965999560104,0 80.2561105923922,13.06877684783517,0 80.25847868069624,13.07090808093255,0 80.2582388547949,13.07136060980703,0 80.25745212582972,13.07197015681371,0 80.257171218362,13.07212793253434,0 80.25680498341735,13.07237525997127,0 80.25605635539726,13.07186377858817,0 80.25634047811933,13.07061010524146,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

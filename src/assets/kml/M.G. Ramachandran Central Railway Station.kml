@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1b8u_Mz6BrFTGn6sGa7tBa-0_6HU_6Yqh">
+	<name>M.G. Ramachandran Central Railway Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_1EEEBD22FE2F7C95B224">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2875E7212B2F7C95B224">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0359C13EA12F7C95B224">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1EEEBD22FE2F7C95B224</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2875E7212B2F7C95B224</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0582E0EEEB2F721BC314">
+		<name>Chennai Central Railway Station</name>
+		<snippet></snippet>
+		<LookAt>
+			<longitude>80.2742482797448</longitude>
+			<latitude>13.08255377635726</latitude>
+			<altitude>30.9860969250335</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>618.0457060126355</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0359C13EA12F7C95B224</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27356590211039,13.08339370987548,0 80.27362254232544,13.08307830089143,0 80.27354560667411,13.08303485417227,0 80.27361069495429,13.08267017552774,0 80.27346921439188,13.08216585461896,0 80.27330807606178,13.08203847017215,0 80.27338377196084,13.08163229132054,0 80.27396829641057,13.08175068924615,0 80.27448221399827,13.08181879104898,0 80.27477233774228,13.08178779203678,0 80.27519768260245,13.08181162567634,0 80.27545996129921,13.08179237243659,0 80.27573089748203,13.08181699502318,0 80.275999005988,13.0818402121099,0 80.27624953533095,13.08192860121018,0 80.27594249001751,13.08400933134845,0 80.27580478295843,13.08404005347584,0 80.27539193032473,13.08681991483054,0 80.27481295514504,13.08815339009326,0 80.27429911163719,13.08810353191643,0 80.27418219503491,13.08750014694624,0 80.27462738180114,13.08423719540049,0 80.27472142689204,13.08365919780841,0 80.27450372291835,13.0836003118543,0 80.2743216591801,13.08432664187413,0 80.27374857489515,13.08429902537164,0 80.27381534313945,13.08349405499801,0 80.27356590211039,13.08339370987548,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

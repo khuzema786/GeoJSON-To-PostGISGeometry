@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1w1maPaX9L06lgS6LYQkmgH9VTCCk9EbQ">
+	<name>Ispahani Centre</name>
+	<gx:CascadingStyle kml:id="__managed_style_0995EA02172F7C958AF4">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_414B494FD52F7C958AF3">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_33B29FC3392F7C958AF3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_414B494FD52F7C958AF3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0995EA02172F7C958AF4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0C2CF618302F7742890D">
+		<name>Ispahani Centre</name>
+		<LookAt>
+			<longitude>80.24960740998802</longitude>
+			<latitude>13.05571718133366</latitude>
+			<altitude>31.95881886827746</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>300.8042848717378</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_33B29FC3392F7C958AF3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.24937070596692,13.0554301468273,0 80.24953757548906,13.05520620962193,0 80.24970401213662,13.05490030802317,0 80.24971165685271,13.05485553543171,0 80.2497638229209,13.05485347296651,0 80.24982867437892,13.05493723390115,0 80.25013840377342,13.05513118499139,0 80.25011075451599,13.0553729098329,0 80.24997033419756,13.05567251381769,0 80.2498037127247,13.05563264691623,0 80.2492730094216,13.05553972864733,0 80.24937070596692,13.0554301468273,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

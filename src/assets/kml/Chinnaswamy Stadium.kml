@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Chinnaswamy Stadium</name>
+	<Style id="poly-FF0000-1000-0-nodesc-highlight">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-FF0000-1000-0-nodesc-normal">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="poly-FF0000-1000-0-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FF0000-1000-0-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FF0000-1000-0-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="071638870C2F9B244666">
+		<name>Geofence - Chinnaswamy Stadium</name>
+		<styleUrl>#poly-FF0000-1000-0-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.60202315249715,12.97930815208713,0 77.598122,12.980608,0 77.597784,12.980683,0 77.597638,12.980561,0 77.597825,12.980119,0 77.599379,12.976811,0 77.600362,12.976769,0 77.6007915081511,12.97924390664202,0 77.6018277197622,12.97880731192895,0 77.60202315249715,12.97930815208713,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

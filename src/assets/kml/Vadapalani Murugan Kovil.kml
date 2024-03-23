@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1goFPeXhC6_aIefRT9BUdu-Ddj8gqO7ot">
+	<name>Vadapalani Murugan Kovil</name>
+	<gx:CascadingStyle kml:id="__managed_style_2073EF83FD2F7C8334D7">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C0533B6F82F7C8334D7">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0090D99A562F7C8334D7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C0533B6F82F7C8334D7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2073EF83FD2F7C8334D7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0299B4C84B2F771D808A">
+		<name>Vadapalani Murugan Temple</name>
+		<LookAt>
+			<longitude>80.21337074775461</longitude>
+			<latitude>13.05268134316033</latitude>
+			<altitude>31.37789061475285</altitude>
+			<heading>20.26187845140883</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>431.8053975763178</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0090D99A562F7C8334D7</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.21323851189403,13.05256494628515,0 80.21358581493251,13.05254144124342,0 80.21354965284631,13.052181024705,0 80.21355006511585,13.05192566806723,0 80.21365272353802,13.05191920376947,0 80.21365496468336,13.05197613613507,0 80.21369389885145,13.05255808383578,0 80.21393684952128,13.05258402119302,0 80.21401859575612,13.05266239930455,0 80.21463570717988,13.05264142569469,0 80.2146453524915,13.05267477069316,0 80.21463897311594,13.05299033163095,0 80.2146602302637,13.05328650378269,0 80.21425118042094,13.05329406831734,0 80.2139867466671,13.0532819429059,0 80.21399792442323,13.0533597453777,0 80.2136471438089,13.05335431837854,0 80.21331998985026,13.05333883571284,0 80.21323851189403,13.05256494628515,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

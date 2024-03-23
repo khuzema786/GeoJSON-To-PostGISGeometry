@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1G4ao99JaHGzePg4ylJjlWiNpaJvtUZgh">
+	<name>Besant Nagar Beach</name>
+	<gx:CascadingStyle kml:id="__managed_style_0898FFFC572F7C93D5FC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_47E7EB4FA42F7C93D5FB">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3D25BDD80C2F7C93D5FB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_47E7EB4FA42F7C93D5FB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0898FFFC572F7C93D5FC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0EB62D505A2F76F6A130">
+		<name>Elliots Beach (Besant Nagar)</name>
+		<LookAt>
+			<longitude>80.27121458697586</longitude>
+			<latitude>13.00068907373035</latitude>
+			<altitude>23.48489480483296</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>979.5065796248675</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3D25BDD80C2F7C93D5FB</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27392394961598,13.00222519507653,0 80.2730196209465,13.00253217339987,0 80.27233450468604,13.00275008431782,0 80.2721071542958,13.00253577984172,0 80.27176207709034,13.00191086933774,0 80.27127491025321,13.00115779003274,0 80.27110745505645,13.00095527669723,0 80.27105691646899,13.00087212866324,0 80.2710316125734,13.00057015586823,0 80.27094462892717,12.99986061942696,0 80.27074725714131,12.99812145874171,0 80.27054891936275,12.99659377460638,0 80.27043481575097,12.99563696443371,0 80.27039827514959,12.99548327677629,0 80.27043800817751,12.99546061428438,0 80.27050675559587,12.99544993163555,0 80.27065684125571,12.9964310239446,0 80.27105081830781,12.99644621348049,0 80.2712922013645,12.9977533267469,0 80.27257826694525,12.997422139962,0 80.27392394961598,13.00222519507653,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

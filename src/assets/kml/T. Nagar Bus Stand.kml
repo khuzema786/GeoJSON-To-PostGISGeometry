@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1rc-dBpmZ0UONn8xXyxzYVnBwBhxp87jZ">
+	<name>T. Nagar Bus Stand</name>
+	<gx:CascadingStyle kml:id="__managed_style_23E70BA2CA2F7C8DBE3B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_3EEF34E16B2F7C8DBE3B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_16325C6CA52F7C8DBE3B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_23E70BA2CA2F7C8DBE3B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_3EEF34E16B2F7C8DBE3B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="06AEE835FB2F77084972">
+		<name>T-Nagar Bus stand</name>
+		<LookAt>
+			<longitude>80.23002555783798</longitude>
+			<latitude>13.03488920427008</latitude>
+			<altitude>27.25412100337979</altitude>
+			<heading>359.9999548248837</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>321.6710543977388</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16325C6CA52F7C8DBE3B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.22981702517811,13.03471904581107,0 80.22976573101636,13.03434790414673,0 80.22975487548452,13.03400567433794,0 80.23042001887235,13.0338496402391,0 80.23046022694908,13.03391906964999,0 80.23039393254059,13.03428935632284,0 80.23039784723254,13.0345232699366,0 80.23034718442389,13.03472943379388,0 80.23011700119534,13.03503287938193,0 80.23001026121027,13.03509141015986,0 80.22984886061543,13.03510957777971,0 80.22982080350506,13.03490940221906,0 80.22981702517811,13.03471904581107,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

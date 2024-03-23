@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1kg_u0DdZhCOhUEs1IP_GWyzz5w-IjCPU">
+	<name>Satyam Cinemas</name>
+	<gx:CascadingStyle kml:id="__managed_style_5AF66B2B4E2F7C008CC1">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_410805C9872F7C008CC1">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_307B6AD3292F7C008CC1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_410805C9872F7C008CC1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5AF66B2B4E2F7C008CC1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0AFD79E1982F771805EC">
+		<name>Satyam Cinemas</name>
+		<LookAt>
+			<longitude>80.25828227618483</longitude>
+			<latitude>13.0559427944731</latitude>
+			<altitude>28.60847480099059</altitude>
+			<heading>351.7379191112824</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>392.8716661717773</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_307B6AD3292F7C008CC1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.25779241188846,13.05534383391972,0 80.25780352815036,13.05502979201209,0 80.25789470691969,13.05503227357817,0 80.25804297889682,13.05507885615989,0 80.25815065008375,13.05517839924496,0 80.25854007359123,13.05523863426882,0 80.25856318665839,13.05533180691917,0 80.25852409584135,13.05564982468272,0 80.25856136021284,13.05580048505147,0 80.25861521598073,13.05586179867129,0 80.25901782116541,13.05598225062861,0 80.25888624277168,13.05668281722036,0 80.25884449883169,13.05669539767334,0 80.25877836681401,13.05681095007016,0 80.25862616355548,13.05678315018469,0 80.25847749540398,13.05674376502766,0 80.2585003283334,13.05665168180253,0 80.25854559663965,13.05630040408456,0 80.25858326655325,13.05591454981382,0 80.25839262898555,13.05576705711311,0 80.25815205906713,13.05572989855559,0 80.25769019794768,13.05569482334899,0 80.25779241188846,13.05534383391972,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

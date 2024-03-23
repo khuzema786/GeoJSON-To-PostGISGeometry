@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1VOaw_kWTxPhEF5lZr9IfX37N7XJSV2E4">
+	<name>Park Metro Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_56B20285512F7C7D8891">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_466F6333842F7C7D8891">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3DDE39DA1B2F7C7D8891">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_466F6333842F7C7D8891</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_56B20285512F7C7D8891</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="03EB2F13742F77281BAF">
+		<name>Park Town Metro</name>
+		<LookAt>
+			<longitude>80.27338609732197</longitude>
+			<latitude>13.08132622814685</latitude>
+			<altitude>26.40056092396651</altitude>
+			<heading>-136.46730812174</heading>
+			<tilt>29.39923428090416</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>235.8950933783127</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3DDE39DA1B2F7C7D8891</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27284571876662,13.08130475214887,0 80.27277180209538,13.08127068381774,0 80.27271843347368,13.08119028643322,0 80.27273920229999,13.08103122563658,0 80.27272313918002,13.08093893627699,0 80.27236465422217,13.08100373448618,0 80.27195102949295,13.08093147271342,0 80.27196055991914,13.08074491916528,0 80.27209022224288,13.08063229974991,0 80.27271423294265,13.0805131313749,0 80.27343449287719,13.08025061549548,0 80.27379266379047,13.08028139222028,0 80.27417652564276,13.08026895973581,0 80.27420646354837,13.08050508786832,0 80.27380034689641,13.08075438605256,0 80.273519089218,13.08095297812271,0 80.27347534494361,13.08118444799998,0 80.27342899999205,13.08139101442635,0 80.27324605287443,13.08136601748866,0 80.27284571876662,13.08130475214887,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

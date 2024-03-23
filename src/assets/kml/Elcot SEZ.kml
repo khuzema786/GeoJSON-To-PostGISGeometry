@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1vB-iFamVJgkXIUYOlrvj2-D-PTjT5lji">
+	<name>Elcot SEZ</name>
+	<gx:CascadingStyle kml:id="__managed_style_4C261B28CE2F7C78B7B5">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_52BD2197942F7C78B7B5">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_32D94DFA032F7C78B7B5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4C261B28CE2F7C78B7B5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_52BD2197942F7C78B7B5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E9AE621122F77315DA2">
+		<name>Elcot SEZ</name>
+		<LookAt>
+			<longitude>80.21910703753835</longitude>
+			<latitude>12.90759393558769</latitude>
+			<altitude>13.81225973079927</altitude>
+			<heading>289.0789707092645</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2950.897411326296</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_32D94DFA032F7C78B7B5</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.22228730261148,12.90125316568913,0 80.22258080518787,12.90285221761362,0 80.22272765272959,12.90376384633556,0 80.22291229009257,12.90463147604317,0 80.22320771413843,12.90621049323012,0 80.22369509651602,12.90620932758633,0 80.22414058080872,12.90626072366309,0 80.22470181560196,12.90841359496938,0 80.22454847742993,12.90852893331212,0 80.22549512120912,12.90990850579057,0 80.22550494097896,12.91116016584064,0 80.22657617581602,12.91157483331019,0 80.22445551439834,12.91356929575797,0 80.22225886903612,12.91450222164832,0 80.22066985096258,12.91484680436324,0 80.22049321034842,12.91458609635015,0 80.2186582542133,12.91505754982357,0 80.21818081723913,12.91412527575234,0 80.21777952556876,12.91391053592813,0 80.21737498843558,12.91258245515971,0 80.21998788902781,12.91184679141963,0 80.21913930754111,12.90792345136062,0 80.21556219979331,12.90863058241965,0 80.21514019559761,12.90600033555456,0 80.21658423891432,12.90556293002585,0 80.21606369240304,12.90386339569024,0 80.21607044978782,12.9024850721772,0 80.21768636939268,12.90201773577968,0 80.21810672308921,12.90195958011969,0 80.21807818842156,12.90178432523421,0 80.21840370885126,12.90174671232801,0 80.22228730261148,12.90125316568913,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

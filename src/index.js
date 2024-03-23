@@ -289,6 +289,11 @@ const getGeometry = async (files, locationName) => {
             "''"
           )}';\n`;
 
+          specialLocationGatesMigration += `DELETE FROM atlas_driver_offer_bpp.gate_info WHERE special_location_id = (SELECT id FROM atlas_driver_offer_bpp.special_location WHERE location_name = '${locationName.replaceAll(
+            "'",
+            "''"
+          )}' LIMIT 1);\n`;
+
           specialLocationGatesMigration += gates
             .map(
               (gate) =>

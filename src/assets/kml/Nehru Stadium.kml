@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="173KatBNEfMaYPGMgWRlHhJMLnTB8sw2f">
+	<name>Nehru Stadium</name>
+	<gx:CascadingStyle kml:id="__managed_style_36D52CE1F32F7C9592A3">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_23A3DCBAC62F7C9592A3">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_15FCB240B82F7C9592A3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_23A3DCBAC62F7C9592A3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_36D52CE1F32F7C9592A3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0363BC922C2F772C811C">
+		<name>Nehru Stadium</name>
+		<LookAt>
+			<longitude>80.27208778224667</longitude>
+			<latitude>13.09149979179812</latitude>
+			<altitude>27.33254220568955</altitude>
+			<heading>3.423208952405095</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1193.935623468133</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_15FCB240B82F7C9592A3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27065278969458,13.08401300404562,0 80.27117769041533,13.08390842918265,0 80.27140304307723,13.08388574125928,0 80.27140993662371,13.08361453220884,0 80.27202506383897,13.0837004829201,0 80.27262988692102,13.08393930378667,0 80.27293350882481,13.0840378124327,0 80.27290074510714,13.08616438097558,0 80.27278049612953,13.08667771709687,0 80.27308528175998,13.08672500034276,0 80.27317052882364,13.08776647648587,0 80.27305585481162,13.08859964962369,0 80.27331344295591,13.08881967136959,0 80.27324696167568,13.09024220357484,0 80.27318247985988,13.09088313391436,0 80.27304144109404,13.09140458598009,0 80.2730357386302,13.09151326026207,0 80.27210462224269,13.09109073480568,0 80.27122193703568,13.09075681041175,0 80.27085638938242,13.08978025888329,0 80.27020154633581,13.08959652893308,0 80.26996546934826,13.08960588278026,0 80.26984968737982,13.08839605766654,0 80.26982867636521,13.08784058142444,0 80.26984281995381,13.08751633495205,0 80.26999589350636,13.08725612996581,0 80.27025192371298,13.08668575214415,0 80.27031166165811,13.0856654298572,0 80.27037936935922,13.08522632995065,0 80.27051437528111,13.08454603719567,0 80.27065278969458,13.08401300404562,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

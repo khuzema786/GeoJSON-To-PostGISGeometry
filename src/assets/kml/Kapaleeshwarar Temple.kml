@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1TwnyzFL5w8YpLZLmXBP-OLR6G-7dc3e2">
+	<name>Kapaleeshwarar Temple</name>
+	<gx:CascadingStyle kml:id="__managed_style_25297B5F892F7C801440">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12321FEB762F7C801440">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_003CDF6BE32F7C801440">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12321FEB762F7C801440</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_25297B5F892F7C801440</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0B622AE28D2F771EA018">
+		<name>Kapaleeshwarar Temple</name>
+		<LookAt>
+			<longitude>80.26993979941271</longitude>
+			<latitude>13.03378015387354</latitude>
+			<altitude>28.83338359189145</altitude>
+			<heading>0.0001931793766446274</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>481.2856320175342</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_003CDF6BE32F7C801440</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.26956322321944,13.03431513628477,0 80.2693837103873,13.03341361994609,0 80.2694499015556,13.03338588353876,0 80.26972890403253,13.03330234249749,0 80.27022492650859,13.0331621854444,0 80.27027737654002,13.03339577213444,0 80.2703503892772,13.03349422410995,0 80.27038853279473,13.03361724510345,0 80.27048593076827,13.03410028376211,0 80.27033851501628,13.03414228991461,0 80.26956322321944,13.03431513628477,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1VErsZy0RZQ4OkN0UubFuGovx6b8-6fc8">
+	<name>Semmozhi Poonga</name>
+	<gx:CascadingStyle kml:id="__managed_style_3AFFEAE9F92F7C956595">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2533C1365A2F7C956595">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_15BE7EECAD2F7C956595">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2533C1365A2F7C956595</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_3AFFEAE9F92F7C956595</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="052BDFEC1F2F774C0DED">
+		<name>Semmozhi Poonga</name>
+		<LookAt>
+			<longitude>80.25141287490351</longitude>
+			<latitude>13.05053714020069</latitude>
+			<altitude>37.46767127260117</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>821.1431288185124</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_15BE7EECAD2F7C956595</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.25134389852214,13.05192349978705,0 80.25108502995583,13.05201008486876,0 80.25084734580727,13.05182802187008,0 80.2507349281951,13.0508680099266,0 80.25054831988767,13.05067902796284,0 80.25011403365322,13.05074390566412,0 80.25002413386815,13.05043827221619,0 80.25002898600911,13.05015299218258,0 80.2502724314225,13.05010118333166,0 80.25104152959858,13.0499925432022,0 80.2508970978471,13.04949072595709,0 80.25102118035086,13.04946174517978,0 80.25189029504548,13.04967665100008,0 80.25224141498302,13.04973249488508,0 80.25270995290805,13.04966259604963,0 80.25302185390441,13.04970865429558,0 80.25284502643028,13.05004830911168,0 80.25266175831236,13.05030953121337,0 80.25249437781432,13.05054128779495,0 80.25206912539525,13.05106574785584,0 80.25165363275907,13.05158587974946,0 80.25134389852214,13.05192349978705,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

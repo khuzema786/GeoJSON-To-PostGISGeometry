@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1zWvmo4IX4Snv5i1gkXwM5-cs1h_V7-vO">
+	<name>Santhome Cathedral Basilica</name>
+	<gx:CascadingStyle kml:id="__managed_style_3A410658D52F7C040696">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_280CDF11B42F7C040696">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_11A72AF4E92F7C040696">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_280CDF11B42F7C040696</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_3A410658D52F7C040696</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0C565084992F774EA397">
+		<name>Santhome Cathedral</name>
+		<LookAt>
+			<longitude>80.27786719441859</longitude>
+			<latitude>13.03362864237751</latitude>
+			<altitude>31.81793434974506</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>452.0093109382287</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_11A72AF4E92F7C040696</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.27740816135034,13.03420314157788,0 80.27733396816029,13.03399949753351,0 80.27732204639081,13.03378517649732,0 80.27730538010024,13.03354793130566,0 80.27722824768311,13.03355720164218,0 80.27720293894602,13.03344436241605,0 80.27731936255793,13.03322281883495,0 80.27752864773856,13.03334758583198,0 80.27769428930418,13.03335605078268,0 80.27817225034555,13.03329106483738,0 80.27884534559288,13.03317243446912,0 80.27897843944478,13.03387200353632,0 80.27842792872595,13.03399516067949,0 80.27760960884187,13.03417643491273,0 80.27740816135034,13.03420314157788,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

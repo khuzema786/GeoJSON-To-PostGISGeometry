@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1EE5Q5iXUNcnsT2atoNrfO9FH2PhgZtxy">
+	<name>Egmore Railway Station</name>
+	<gx:CascadingStyle kml:id="__managed_style_5CAFE292A02F7C95AB3F">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4FF12701D42F7C95AB3F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_3A182F92952F7C95AB3F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4FF12701D42F7C95AB3F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5CAFE292A02F7C95AB3F</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="02042BD95C2F76DAF36F">
+		<name>Egmore Railway Station</name>
+		<styleUrl>#__managed_style_3A182F92952F7C95AB3F</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.25835903234957,13.0782756191884,0 80.25753042425322,13.07789713623682,0 80.25728749723986,13.0775648391963,0 80.25737697771135,13.07706337772159,0 80.25821189746674,13.07712654014668,0 80.25957247230656,13.07736377425629,0 80.26019459747347,13.07745700928474,0 80.26032890560299,13.07719274918521,0 80.26044280151093,13.07730181372491,0 80.26091691423021,13.07720382987195,0 80.26141005739834,13.07736955892421,0 80.26132430315573,13.07750464916724,0 80.26145328333541,13.07751768489413,0 80.26158697754725,13.0775637398204,0 80.26198170338986,13.07773220784261,0 80.26201065490807,13.07777581684004,0 80.26225304133182,13.07790372036157,0 80.262608943052,13.0780042981332,0 80.26273803169333,13.0782342327561,0 80.26269463919537,13.07858481197543,0 80.26266727715903,13.07891164593821,0 80.26264110094704,13.07910762889924,0 80.2623378294473,13.0792652971096,0 80.26229936504774,13.07953548761018,0 80.26207880702812,13.07957487434509,0 80.26184533812962,13.07952528198709,0 80.26165495829345,13.07953665360326,0 80.26162166926431,13.07971960981721,0 80.26153681980412,13.0797078298242,0 80.26148467275725,13.07965294494596,0 80.26138849852327,13.07951020824916,0 80.26138783271178,13.07938287528567,0 80.26067239013901,13.07927301993247,0 80.26030175040859,13.07924608679973,0 80.25994647842938,13.07919324851595,0 80.25981661761078,13.07891615791619,0 80.2598604916612,13.07861128823149,0 80.25835903234957,13.0782756191884,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

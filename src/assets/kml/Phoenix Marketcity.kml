@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1gl04-9XHZOQ0acqUfmaeM5xCVZgIr7KP">
+	<name>Phoenix Marketcity</name>
+	<gx:CascadingStyle kml:id="__managed_style_393B1861FF2F7C908792">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_26D5C09BBD2F7C908792">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1DB68BDB7F2F7C908792">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_26D5C09BBD2F7C908792</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_393B1861FF2F7C908792</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="027EBCBACB2F77042E0D">
+		<name>Phoenix Marketcity, Velachery</name>
+		<LookAt>
+			<longitude>80.21782444672348</longitude>
+			<latitude>12.99377647594138</latitude>
+			<altitude>26.6722561380289</altitude>
+			<heading>354.7271310601747</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>112.203140931033</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_1DB68BDB7F2F7C908792</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.21853046039378,12.99292170710051,0 80.2183656577071,12.99313673465515,0 80.21812732285836,12.99348925741705,0 80.21799060248618,12.99368675120463,0 80.21793099612451,12.99383042611866,0 80.21786706004632,12.99391247981796,0 80.21760390254681,12.99382006446424,0 80.21751216070672,12.99368324400652,0 80.21743378659981,12.99360476497614,0 80.21718219818638,12.99322197302102,0 80.2170083717596,12.9929910185054,0 80.21684586001574,12.99280025496326,0 80.21721102843145,12.99268596422168,0 80.21731437907435,12.9925706564662,0 80.21707166676137,12.99246509878304,0 80.21694039005349,12.99232078980733,0 80.21683124655122,12.99214527241358,0 80.21667414894097,12.99187917542504,0 80.21659953292398,12.99156626188499,0 80.21665515314059,12.99125679434238,0 80.21672381436036,12.99106629080651,0 80.21674987316564,12.99089807660581,0 80.21675950346717,12.99081796091069,0 80.21690815933059,12.99080583557775,0 80.21696115409247,12.99088578348043,0 80.21712939264158,12.99099614832949,0 80.21738432764511,12.99090113034026,0 80.21751550840216,12.99085812878503,0 80.21761007150013,12.99084734341916,0 80.21764250836239,12.99111374178634,0 80.21755539206876,12.99127234125883,0 80.21751534875503,12.99156301350576,0 80.2175949304503,12.99188252208435,0 80.21766144023992,12.99208768974669,0 80.21779836381927,12.99226164607822,0 80.21815352664234,12.99245550940947,0 80.21853706854576,12.99266288037707,0 80.21866365688591,12.99274272352562,0 80.2186792307829,12.99275430411951,0 80.21858991236319,12.99287291402788,0 80.21853046039378,12.99292170710051,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

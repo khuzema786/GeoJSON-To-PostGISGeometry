@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1acpTmvyadP2f5fsDx9jF0uPlXEp8oCk4">
+	<name>Express Avenue Mall</name>
+	<gx:CascadingStyle kml:id="__managed_style_2BE8953A2D2F7C864BDB">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1604C55FC22F7C864BDB">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09918FD4182F7C864BDB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1604C55FC22F7C864BDB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BE8953A2D2F7C864BDB</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E58A2E99A2F771A3DD0">
+		<name>Express Avenue Mall</name>
+		<LookAt>
+			<longitude>80.26404594051668</longitude>
+			<latitude>13.0590837319946</latitude>
+			<altitude>26.75712556096074</altitude>
+			<heading>359.999747877934</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>722.450963826268</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09918FD4182F7C864BDB</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.26355796633891,13.05793258297889,0 80.26421409525646,13.05801647796415,0 80.26481058782626,13.05809945981015,0 80.26504867154441,13.05815185623607,0 80.26534206543018,13.0582908708863,0 80.26542440508811,13.05847236640749,0 80.26547966489272,13.05868655368181,0 80.26554181764317,13.05917229751792,0 80.26553890749229,13.05932927228977,0 80.26479342544248,13.0592936951153,0 80.26396600807153,13.05923153690638,0 80.2631656122069,13.05914346477619,0 80.26282191177552,13.05911990901869,0 80.26275555493649,13.05912145947948,0 80.26266754158844,13.05911623319557,0 80.26268281759806,13.05896671567572,0 80.26269956671401,13.0587734245636,0 80.26276669491926,13.05847371287028,0 80.2627838383147,13.05824111569981,0 80.26282406551364,13.05800392374117,0 80.26285816057224,13.05789539661872,0 80.26310661551888,13.05787200327867,0 80.26326856350525,13.0578886676994,0 80.26355796633891,13.05793258297889,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
